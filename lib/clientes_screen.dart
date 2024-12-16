@@ -101,8 +101,7 @@ class ClientesScreen extends StatelessWidget {
                         const PopupMenuItem(
                           value: 'designMarca',
                           child: ListTile(
-                            leading:
-                                Icon(Icons.assignment, color: Colors.orange),
+                            leading: Icon(Icons.assignment, color: Colors.red),
                             title: Text('Designar Marca'),
                           ),
                         ),
